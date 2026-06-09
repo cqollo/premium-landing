@@ -30,17 +30,31 @@ export default function ProductionFunnel() {
 
   const faqData = [
     {
-      q: "What is your typical development timeline?",
-      a: "A premium bespoke platform generally spans 4 to 6 weeks. This includes architectural planning, visual drafts, and complete React/Next.js engineering with structural optimizations."
+      q: "What specific wood species do you work with?",
+      a: "We work almost exclusively with prime local and regional hardwoods chosen for their density, stability, and striking aesthetic character. Our primary canvases are rich African Mahogany, deep-grained Mvule, and beautifully patterned Elgon Olive. We handle every slab with strict adherence to sustainable sourcing guidelines."
     },
     {
-      q: "Do you use third-party templates or page builders?",
-      a: "Never. Every line of code is written completely from scratch tailored to your exact business constraints. This ensures clean dependency trees, extreme performance speeds, and unmatched structural security."
+      q: "How do you prevent solid wood from warping or cracking over time?",
+      a: "Wood is an active, organic material that naturally expands and contracts with changes in humidity. We mitigate this through two strict practices: first, we cure and stabilize our lumber to optimal moisture levels before a tool ever touches it. Second, our joinery is engineered with internal expansion allowances, enabling the timber to breathe naturally without placing stress on its joints."
     },
     {
-      q: "How do you handle post-launch application maintenance?",
-      a: "Every engagement includes 30 days of direct structural support. Following launch, we offer custom monthly engineering retainers to continually audit performance, update dependencies, and optimize feature deployments."
+      q: "How does the custom commission process work?",
+      a: "Every piece begins with an architectural design consultation where we define the scale, function, and aesthetic layout of your space. We then generate detailed 3D spatial models for your approval. Once the design is locked in, we select the specific timber slabs from our workshop inventory and begin the handcrafting process."
+    },
+    {
+      q: "What is the typical lead time for a bespoke furniture piece?",
+      a: "Because we reject mass-production shortcuts and rely on meticulous hand-applied finishes, custom commissions typically take between 4 to 8 weeks from design sign-off to final white-glove installation. We provide regular photo updates from the workshop floor as your piece moves through production."
+    },
+    {
+      q: "Do you manage delivery and on-site assembly?",
+      a: "Yes. We handle the entire logistics pipeline via our dedicated white-glove delivery service. We personally transport, uncrate, place, and level your furniture within your home or executive office, ensuring the piece is perfectly positioned and detailed."
+    },
+    {
+      q: "How should I maintain my hand-rubbed furniture piece?",
+      a: "Maintenance is remarkably simple. For daily care, a light dusting with a dry microfibre cloth is all that is required. Avoid harsh chemical cleaners or commercial spray polishes, which can strip the organic finish. Every 12 to 18 months, applying a thin coat of natural furniture wax will completely restore its deep, organic glow."
     }
+
+  
   ];
 
   return (
@@ -69,13 +83,13 @@ export default function ProductionFunnel() {
         {/* 2. THE HERO INTERFACE */}
         <section className="mx-auto max-w-5xl px-6 pt-24 pb-20 text-center md:pt-40 md:pb-36">
           <span className="text-xs uppercase tracking-widest text-[#9C6B53] font-semibold block mb-4">
-            Digital Architecture Studio
+            Architectural Woodwork Studio
           </span>
           <h1 className="text-4xl md:text-7xl font-normal tracking-tight leading-[1.05] mb-8 max-w-4xl mx-auto text-balance">
-            We design and build elite digital architecture for premium brands.
+            We design and build legacy-grade hardwood furniture for distinct private estates.
           </h1>
           <p className="text-lg md:text-xl text-[#2C2C2C]/70 font-light max-w-2xl mx-auto mb-12 leading-relaxed">
-            No templates. No bloated codebases. Just tailored React applications built with strict precision to convert high-value traffic into predictable revenue.
+            No mass-manufactured replicas. No modern compromises. Just pure, solid-log craftsmanship tailored meticulously to your spatial specifications and built to endure for generations.
           </p>
           <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
             <a 
@@ -144,18 +158,54 @@ export default function ProductionFunnel() {
     <div className="group cursor-pointer">
       <div className="aspect-[16/10] bg-[#2C2C2C]/5 overflow-hidden mb-8 relative border border-[#2C2C2C]/5">
         <Image 
-          src="/projects/axiom-dashboard.webp"
-          alt="Minimalist dark mode user interface dashboard showing analytical metrics"
+          src="/projects/copper-leaf-desk.webp"
+          alt="Copper Leaf Desk"
           fill
           sizes="(max-width: 768px) 100vw, 50vw"
           className="object-cover object-center transform group-hover:scale-105 transition-transform duration-700 ease-out"
         />
       </div>
       <h3 className="text-2xl font-normal mb-2 group-hover:text-[#9C6B53] transition-colors duration-200">
-        02 / High-Frequency Trading System
+        02 / Copper Leaf Desk
       </h3>
       <p className="text-sm text-[#2C2C2C]/60 font-light max-w-md leading-relaxed">
         An advanced custom React dashboard featuring live state parsing, continuous data streams, and ultra-secure endpoint filter integration.
+      </p>
+    </div>
+
+    <div className="group cursor-pointer">
+      <div className="aspect-[16/10] bg-[#2C2C2C]/5 overflow-hidden mb-8 relative border border-[#2C2C2C]/5">
+        <Image 
+          src="/projects/Meru-oak-bookshelf.webp"
+          alt="Bookshelf made of meru oak with a plywood back"
+          fill
+          sizes="(max-width: 768px) 100vw, 50vw"
+          className="object-cover object-center transform group-hover:scale-105 transition-transform duration-700 ease-out"
+        />
+      </div>
+      <h3 className="text-2xl font-normal mb-2 group-hover:text-[#9C6B53] transition-colors duration-200">
+        03 / Meru Oak Bookshelf
+      </h3>
+      <p className="text-sm text-[#2C2C2C]/60 font-light max-w-md leading-relaxed">
+        A bookshelf made of meru oak featuring a plywood, locking finger joints, and finished with a matte clear coat.
+      </p>
+    </div>
+
+    <div className="group cursor-pointer">
+      <div className="aspect-[16/10] bg-[#2C2C2C]/5 overflow-hidden mb-8 relative border border-[#2C2C2C]/5">
+        <Image 
+          src="/projects/fluted-desk4.webp"
+          alt="Image of a fluted desk"
+          fill
+          sizes="(max-width: 768px) 100vw, 50vw"
+          className="object-cover object-center transform group-hover:scale-105 transition-transform duration-700 ease-out"
+        />
+      </div>
+      <h3 className="text-2xl font-normal mb-2 group-hover:text-[#9C6B53] transition-colors duration-200">
+        04 / A Fluted Desk
+      </h3>
+      <p className="text-sm text-[#2C2C2C]/60 font-light max-w-md leading-relaxed">
+        A fluted desk made crafted from meru oak, with three front drawers carefully designed with visually appealing dovetail joints that reveals when opened.
       </p>
     </div>
 
@@ -178,27 +228,36 @@ export default function ProductionFunnel() {
               <div className="relative pl-10 border-l border-[#2C2C2C]/10 group">
                 <div className="absolute -left-[4.5px] top-1.5 w-2 h-2 rounded-full bg-[#9C6B53]" />
                 <span className="text-xs font-mono text-[#9C6B53] block mb-2 font-medium">Phase 01 / Discovery</span>
-                <h3 className="text-xl font-medium mb-3">Digital Architecture Definition</h3>
+                <h3 className="text-xl font-medium mb-3">Material Curation & Acclimatization</h3>
                 <p className="text-sm text-[#2C2C2C]/70 font-light leading-relaxed">
-                  We audit your traffic blueprints and ad hooks. We construct a comprehensive technical roadmap, defining specific state management pipelines and user tracking models before writing a line of code.
+                  We source prime, sustainably harvested African hardwoods—selecting only boards that exhibit exceptional figure and stable grain lines. Each timber slab undergoes an intensive moisture stabilization process to ensure it adapts perfectly to local atmospheric conditions, preventing future checking or warping.
                 </p>
               </div>
 
               <div className="relative pl-10 border-l border-[#2C2C2C]/10 group">
                 <div className="absolute -left-[4.5px] top-1.5 w-2 h-2 rounded-full bg-[#9C6B53]" />
                 <span className="text-xs font-mono text-[#9C6B53] block mb-2 font-medium">Phase 02 / Interface</span>
-                <h3 className="text-xl font-medium mb-3">Premium Aesthetic Engineering</h3>
+                <h3 className="text-xl font-medium mb-3">Architectural Joinery</h3>
                 <p className="text-sm text-[#2C2C2C]/70 font-light leading-relaxed">
-                  We map out custom wireframes focused heavily on whitespace distribution, typographic scales, and high-conversion landing pathways. Your brand looks incredibly polished, custom, and expensive.
+                  We build for generations. Our workshop entirely rejects cheap industrial screws, staples, or fast-setting chemical fasteners. Instead, we rely exclusively on time-tested mechanical joinery—including blind mortise-and-tenon systems, precision-cut sliding dovetails, and organic wood dowels that grow stronger under structural tension.
                 </p>
               </div>
 
               <div className="relative pl-10 border-l border-[#2C2C2C]/10 group">
                 <div className="absolute -left-[4.5px] top-1.5 w-2 h-2 rounded-full bg-[#9C6B53]" />
                 <span className="text-xs font-mono text-[#9C6B53] block mb-2 font-medium">Phase 03 / Construction</span>
-                <h3 className="text-xl font-medium mb-3">Bespoke React & Next.js Coding</h3>
+                <h3 className="text-xl font-medium mb-3">Graduated Hand-Refinement</h3>
                 <p className="text-sm text-[#2C2C2C]/70 font-light leading-relaxed">
-                  Approved layouts are engineered using clean, server-first React components. We eliminate unnecessary script libraries, enforce fast mobile page speeds, and integrate strict server-side form validations.
+                  Once assembled, the wood is brought to life using traditional hand planes and a graduated smoothing sequence. Rather than obliterating the natural tactile texture of the wood under mechanical sanders, our hand-planing shears the wood fibers cleanly, leaving an incredibly smooth, reflective surface that highlights the deep luster of the grain.
+                </p>
+              </div>
+
+              <div className="relative pl-10 border-l border-[#2C2C2C]/10 group">
+                <div className="absolute -left-[4.5px] top-1.5 w-2 h-2 rounded-full bg-[#9C6B53]" />
+                <span className="text-xs font-mono text-[#9C6B53] block mb-2 font-medium">Phase 04 / Construction</span>
+                <h3 className="text-xl font-medium mb-3">The Hand-Rubbed Organic Finish</h3>
+                <p className="text-sm text-[#2C2C2C]/70 font-light leading-relaxed">
+                  We never seal our pieces under thick, plastic-like industrial polyurethane coatings. Instead, we apply a custom blend of natural oils and pure beeswax. This formulation sinks deep into the pores, nourishing the timber from within and allowing it to breathe. The result is a rich, matte finish that develops a stunning, unique patina over decades of use.
                 </p>
               </div>
             </div>
