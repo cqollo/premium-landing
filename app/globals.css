@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme {
+  /* Premium Palette Config */
+  --color-alabaster: #F9F8F6;
+  --color-alabaster-darker: #F1EFEA;
+  --color-charcoal: #2C2C2C;
+  --color-mahogany: #9C6B53;
+  --color-mahogany-hover: #835943;
+  --color-sage: #A3B19B;
+
+  /* Premium Micro-Interactions */
+  --animate-fade-in-up: fade-in-up 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+
+  @keyframes fade-in-up {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #F9F8F6;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input:focus, select:focus, textarea:focus {
+  box-shadow: 0 1px 0 0 #9C6B53;
+  outline: none;
+}
