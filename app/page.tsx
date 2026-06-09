@@ -279,7 +279,7 @@ export default function ProductionFunnel() {
                     id="name"
                     required
                     className="w-full bg-[#2C2C2C]/5 border-b border-[#2C2C2C]/20 px-4 py-4 text-sm focus:outline-none focus:border-[#9C6B53] transition-colors duration-200"
-                    placeholder="e.g., Alex Maina"
+                    placeholder="e.g., John Doe"
                   />
                 </div>
                 <div>
@@ -292,7 +292,7 @@ export default function ProductionFunnel() {
                     id="email"
                     required
                     className="w-full bg-[#2C2C2C]/5 border-b border-[#2C2C2C]/20 px-4 py-4 text-sm focus:outline-none focus:border-[#9C6B53] transition-colors duration-200"
-                    placeholder="alex@venture.com"
+                    placeholder="johndoe@email.com"
                   />
                 </div>
                 <div>
